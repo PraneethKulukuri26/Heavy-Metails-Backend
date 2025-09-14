@@ -1,0 +1,76 @@
+orderId,transactionId,status,canteenId,orderTime,deliveryTime,userId,items,orderType,parcelPrice,paymentStatus
+1,Ty5MH-VhXi-1-u23rOi,order_confirmed,1,"2025-08-16 09:44:54","2025-08-16 22:00:00",1,"[{"price": 120, "itemId": 1, "quantity": 2}]",dinein,0,CHARGED
+2,TpAoF-l7UM-6-G3aHRD,pending,1,"2025-08-18 00:39:16","2025-08-17 22:00:00",6,"[{"price": 120, "itemId": 1, "quantity": 2}]",dinein,0,PENDING
+3,TO6HD-amAn-3-5YE1cn,pending,1,"2025-08-18 00:44:22","2025-08-17 00:41:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+4,TsfiC-NsKG-3-9Lpswv,pending,1,"2025-08-18 01:03:43","2025-08-17 01:00:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+5,TYJ9J-WEo9-3-h4P0CW,pending,1,"2025-08-18 01:10:29","2025-08-17 01:07:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+6,TPyYw-dAhZ-3-C9AYeR,pending,1,"2025-08-18 01:11:29","2025-08-17 01:08:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+7,TX5Qw-Eznu-3-dUaNxI,pending,1,"2025-08-18 01:12:19","2025-08-17 01:08:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+8,Tn7I7-iiEo-3-MmyWZS,pending,1,"2025-08-18 01:18:10","2025-08-17 01:14:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+9,TPpTk-eRIE-12-awZMNu,pending,1,"2025-08-20 14:45:26","2025-08-20 15:15:00",12,"[{"price": 120, "itemId": 1, "quantity": 1}, {"price": 3500, "itemId": 2, "quantity": 1}]",dinein,0,PENDING
+10,T8FXX-x9nx-12-7lcUEq,order_confirmed,1,"2025-08-20 14:56:07","2025-08-20 15:16:00",12,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,CHARGED
+11,TD8xM-gLKr-12-Gtkzbu,pending,1,"2025-08-20 16:13:00","2025-08-20 16:42:00",12,"[{"price": 3500, "itemId": 2, "quantity": 1}]",dinein,0,PENDING
+12,Tw3UW-x3xR-2-3Eheit,pending,1,"2025-08-20 19:08:07","2025-08-20 19:28:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}, {"price": 3500, "itemId": 2, "quantity": 1}]",dinein,0,PENDING
+13,Ti3OM-RsPY-2-gKrDlp,pending,1,"2025-08-20 19:08:39","2025-08-20 19:28:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}, {"price": 3500, "itemId": 2, "quantity": 1}]",dinein,0,PENDING
+14,TL7cd-IeVW-2-0hYqU3,pending,1,"2025-08-20 19:15:09","2025-08-20 22:00:00",2,"[{"price": 120, "itemId": 1, "quantity": 2}]",dinein,0,PENDING
+15,TTkVc-Ah2R-2-1eTJnA,pending,1,"2025-08-20 19:22:33","2025-08-20 19:42:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+16,Tfyok-Wjqr-2-uGO0uV,pending,1,"2025-08-20 19:22:52","2025-08-20 19:42:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+21,T5jca-vbkU-3-pLjrEg,pending,1,"2025-08-20 20:21:04","2025-08-20 20:41:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,7,PENDING
+22,TWVhp-EMUn-3-Ccjsj3,pending,1,"2025-08-20 20:44:17","2025-08-20 21:04:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,7,PENDING
+23,TznM4-qxfh-3-Gn9Qj5,pending,1,"2025-08-20 20:44:33","2025-08-20 21:04:00",3,"[{"price": 120, "itemId": 1, "quantity": 2}]",dinein,14,PENDING
+24,T4IgN-F75i-3-tGs9eC,pending,1,"2025-08-20 20:59:40","2025-08-20 21:19:00",3,"[{"price": 3500, "itemId": 2, "quantity": 1}]",dinein,7,PENDING
+25,TTkjC-Y5ip-3-REGiQj,pending,1,"2025-08-20 21:18:00","2025-08-20 21:37:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,7,PENDING
+26,Tu9Ne-QfVt-3-6IfKd2,order_confirmed,1,"2025-08-20 21:27:13","2025-08-20 21:47:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,7,PENDING
+27,Tz14k-Wwdw-3-m1RpTx,order_confirmed,1,"2025-08-20 21:29:01","2025-08-20 21:48:00",3,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,7,PENDING
+28,T0C6u-YkFJ-2-9TcAXQ,pending,1,"2025-08-21 02:44:06","2025-08-20 03:04:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+29,Tgk7R-jMB3-2-SXHYni,pending,1,"2025-08-21 02:44:36","2025-08-20 03:04:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+30,TPFMS-Dxew-2-qwT4wS,pending,1,"2025-08-21 02:45:42","2025-08-20 03:05:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+31,TcFyo-rSS7-2-RTfeUW,pending,1,"2025-08-21 03:02:51","2025-08-20 03:22:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+32,T3SPH-xoMC-3-XsAGKX,pending,1,"2025-08-21 08:50:12","2025-08-21 09:10:00",3,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+34,TcdXf-ING3-2-cA1AYf,pending,1,"2025-08-21 09:21:05","2025-08-21 09:41:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+35,Tnt05-7XQP-2-dvTu6q,pending,1,"2025-08-21 09:21:57","2025-08-21 09:41:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+36,ToyZO-1e1B-2-Ef6rrC,order_confirmed,1,"2025-08-21 09:47:20","2025-08-21 10:07:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,CHARGED
+37,TTH7q-tCOw-2-nua3Zc,order_confirmed,1,"2025-08-21 10:11:50","2025-08-21 10:31:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,CHARGED
+38,Tefu0-0s5p-2-QgEtif,order_confirmed,1,"2025-08-21 10:49:06","2025-08-21 11:09:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+39,T0AtS-cAqA-2-pjo7iO,pending,1,"2025-08-21 10:54:04","2025-08-21 11:13:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+40,TZ1pc-p0My-2-EdmbdX,pending,1,"2025-08-21 10:54:27","2025-08-21 11:14:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+41,TmyIz-tN9q-2-KSJGfK,order_confirmed,1,"2025-08-21 10:56:03","2025-08-21 11:15:00",2,"[{"price": 1, "itemId": 6, "quantity": 1}]",dinein,7,PENDING
+42,Tb224-ZWAc-2-7sUyII,order_confirmed,1,"2025-08-21 11:31:16","2025-08-21 11:51:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,7,PENDING
+43,T1aHU-GgSr-2-WcOccr,order_confirmed,1,"2025-08-21 11:31:57","2025-08-21 11:51:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",pickup,7,PENDING
+44,T9URT-JAlF-2-Mg20Op,pending,1,"2025-08-21 11:51:26","2025-08-21 12:11:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",pickup,7,PENDING
+45,TDSwy-R8Fi-2-kbllGU,order_confirmed,1,"2025-08-21 11:57:14","2025-08-21 12:17:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+46,THyHo-5FJn-2-pYoWqW,pending,1,"2025-08-21 11:57:48","2025-08-21 12:17:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",pickup,7,PENDING
+47,TC3C2-RfiU-2-4C2STo,pending,1,"2025-08-21 12:31:13","2025-08-21 12:51:00",2,"[{"price": 120, "itemId": 1, "quantity": 1}]",pickup,7,PENDING
+48,Tb9XB-1jUv-3-ftp8U9,order_confirmed,1,"2025-08-21 19:28:10","2025-08-21 19:30:00",3,"[{"price": 69, "itemId": 6, "quantity": 1}]",dinein,0,PENDING
+49,TyZvV-xGDD-2-MwB35Z,order_confirmed,1,"2025-08-22 12:10:44","2025-08-22 12:30:00",2,"[{"price": 69, "itemId": 6, "quantity": 1}]",dinein,0,CHARGED
+50,TTOS1-OYGW-2-kB5sC2,order_confirmed,1,"2025-08-22 12:18:52","2025-08-22 12:38:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+51,TkJwE-IKLz-2-MIWo3D,order_confirmed,1,"2025-08-22 12:28:43","2025-08-22 12:48:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+52,TbCOu-4x2x-2-T56Xfm,order_confirmed,1,"2025-08-22 12:45:04","2025-08-22 13:05:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+53,TV6wN-eMDA-2-0gQScZ,order_confirmed,1,"2025-08-22 12:50:31","2025-08-22 13:10:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+54,TXuc5-iTxf-2-FPnifX,order_confirmed,1,"2025-08-22 12:58:04","2025-08-22 13:18:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+55,TLaUi-eJBX-2-tK9TQo,order_confirmed,1,"2025-08-22 13:07:53","2025-08-22 13:27:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+56,ThmJJ-KZqT-2-7CaF3j,order_confirmed,1,"2025-08-22 13:17:43","2025-08-22 13:37:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+57,TlDr5-5O2a-2-1rPhSB,order_confirmed,1,"2025-08-22 13:21:16","2025-08-22 13:41:00",2,"[{"price": 1, "itemId": 69, "quantity": 2}, {"price": 1, "itemId": 68, "quantity": 1}]",pickup,21,CHARGED
+58,TQn4V-0FLl-2-9jtuuK,order_confirmed,1,"2025-08-22 13:26:46","2025-08-22 13:46:00",2,"[{"price": 1, "itemId": 69, "quantity": 2}, {"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+59,ThaCA-qBt1-3-Q0sPtp,delivered,1,"2025-08-22 15:01:35","2025-08-22 15:11:59",3,"[{"price": 1, "itemId": 69, "quantity": 2}, {"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,REFUNDED
+60,TFSPa-wMQE-9-ZRwkv1,pending,1,"2025-08-22 15:05:15","2025-08-22 15:45:00",9,"[{"price": 120, "itemId": 1, "quantity": 1}, {"price": 100.17, "itemId": 5, "quantity": 1}]",dinein,0,PENDING
+61,T0m9r-tE7v-2-A9JSUd,delivered,1,"2025-08-22 15:12:33","2025-08-22 15:46:26",2,"[{"price": 1, "itemId": 69, "quantity": 2}, {"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+62,TBgOK-fW5M-9-r4noXf,pending,1,"2025-08-22 15:20:58","2025-08-22 16:15:00",9,"[{"price": 120, "itemId": 1, "quantity": 1}, {"price": 100.17, "itemId": 5, "quantity": 1}]",pickup,14,PENDING
+63,Tsj5U-m3bR-9-1R79ss,pending,1,"2025-08-22 15:22:57","2025-08-22 16:00:00",9,"[{"price": 3500, "itemId": 2, "quantity": 1}, {"price": 100.17, "itemId": 5, "quantity": 1}]",pickup,14,PENDING
+64,TCSlC-X6ZT-2-Z7VuOV,delivered,1,"2025-08-22 15:34:17","2025-08-22 15:46:18",2,"[{"price": 1, "itemId": 69, "quantity": 2}, {"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+65,TBuYD-g0oO-2-TjBuN0,delivered,1,"2025-08-22 15:44:21","2025-08-22 15:46:14",2,"[{"price": 1, "itemId": 69, "quantity": 2}, {"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,CHARGED
+66,TFia0-khiL-2-WDQsy2,delivered,1,"2025-08-22 15:46:12","2025-08-22 15:47:53",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,REFUNDED
+67,T4lch-Ggtb-2-C21VFU,delivered,1,"2025-08-22 15:56:54","2025-08-22 15:57:27",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,DELIVERED
+68,T0g1h-1jiD-12-MfzHUk,order_confirmed,1,"2025-08-22 16:58:31","2025-08-22 17:18:00",12,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,PENDING
+69,TUK3o-xy4U-12-5YHJnW,order_confirmed,1,"2025-08-22 17:00:15","2025-08-22 17:20:00",12,"[{"price": 1, "itemId": 69, "quantity": 1}]",dinein,0,REFUNDED
+70,TSOvV-nNP1-2-SgWcy2,delivered,1,"2025-08-22 17:01:58","2025-08-22 17:10:07",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,DELIVERED
+71,Ts52f-lQ03-2-HoC9iP,pending,1,"2025-08-22 17:03:01","2025-08-22 17:23:00",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,PENDING
+72,TPdLJ-IIk0-2-gMqbRy,delivered,1,"2025-08-22 17:18:19","2025-08-22 17:32:14",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,DELIVERED
+73,TQawL-Dg14-16-DTmJdb,order_confirmed,1,"2025-08-22 17:41:56","2025-08-22 18:01:00",16,"[{"price": 1, "itemId": 69, "quantity": 1}]",dinein,0,REFUNDED
+74,TzeCC-vHz3-18-7l2WT1,order_confirmed,1,"2025-08-22 17:54:33","2025-08-22 18:14:00",18,"[{"price": 120, "itemId": 1, "quantity": 1}]",dinein,0,PENDING
+75,TMRpY-zmyC-2-OIVxUQ,delivered,1,"2025-08-22 18:27:34","2025-08-22 21:31:40",2,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,DELIVERED
+76,T501p-2UWf-20-0bXB4w,delivered,1,"2025-08-22 18:30:24","2025-08-22 18:41:13",20,"[{"price": 1, "itemId": 69, "quantity": 1}]",dinein,0,DELIVERED
+77,TqnAC-Ce5x-21-nylLwS,pending,1,"2025-08-22 18:41:28","2025-08-22 19:01:00",21,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,PENDING
+78,TLciE-2nDZ-21-7HC1oq,order_confirmed,1,"2025-08-22 18:43:12","2025-08-22 19:03:00",21,"[{"price": 1, "itemId": 68, "quantity": 1}]",dinein,0,REFUNDED
+79,T2wkv-ACd9-12-ocpiVR,order_confirmed,1,"2025-08-22 19:04:44","2025-08-22 19:24:00",12,"[{"price": 1, "itemId": 69, "quantity": 1}]",dinein,0,PENDING
+80,TZ5ry-yPoh-22-fHyd10,order_confirmed,1,"2025-08-22 19:18:36","2025-08-22 19:38:00",22,"[{"price": 1, "itemId": 69, "quantity": 1}]",dinein,0,REFUNDED
