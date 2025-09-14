@@ -263,6 +263,82 @@ app.get('/api/reports/approved', async (_req, res) => {
 	}
 });
 
+// GET /api/reports/approved/json
+// Returns all approved reports' CSV data as JSON
+app.get('/api/reports/approved/json', async (_req, res) => {
+	try {
+		const { data: reports, error } = await supabase
+			.from('reports')
+			.select('id,filename,path')
+			.eq('status', 'approved');
+		if (error) {
+			return res.status(500).json({ error: 'Failed to fetch approved reports', details: error.message });
+		}
+		const results = [];
+		for (const report of reports) {
+			const filePath = path.join(__dirname, report.path || `data_reports/${report.filename}`);
+			if (!fs.existsSync(filePath)) continue;
+			const fileContent = await fs.promises.readFile(filePath, 'utf-8');
+			await new Promise((resolve) => {
+				parse(fileContent, { columns: true, trim: true }, (err, records) => {
+					results.push({ id: report.id, data: err ? null : records, error: err ? err.message : null });
+					resolve();
+				});
+			});
+		}
+		res.json({ reports: results });
+	} catch (e) {
+		res.status(500).json({ error: 'Failed to load or parse approved reports', details: e.message });
+	}
+});
+// GET /api/report/:id/json
+// Returns the parsed CSV data for a report as JSON
+app.get('/api/report/:id/json', async (req, res) => {
+	const reportId = req.params.id;
+	try {
+		// Fetch report info from DB
+		const { data: report, error: reportErr } = await supabase
+			.from('reports')
+			.select('filename,path')
+			.eq('id', reportId)
+			.single();
+		if (reportErr || !report) {
+			return res.status(404).json({ error: 'Report not found', details: reportErr && reportErr.message });
+		}
+		const filePath = path.join(__dirname, report.path || `data_reports/${report.filename}`);
+		if (!fs.existsSync(filePath)) {
+			return res.status(404).json({ error: 'CSV file not found for this report' });
+		}
+		const fileContent = await fs.promises.readFile(filePath, 'utf-8');
+		parse(fileContent, { columns: true, trim: true }, (err, records) => {
+			if (err) {
+				return res.status(500).json({ error: 'Failed to parse CSV', details: err.message });
+			}
+			res.json({ id: reportId, data: records });
+		});
+	} catch (e) {
+		res.status(500).json({ error: 'Failed to load or parse report', details: e.message });
+	}
+});
+// GET /api/reports
+// Returns all reports with status 'approved' in the reports table
+app.get('/api/reports', async (_req, res) => {
+	try {
+		const { data, error } = await supabase
+			.from('reports')
+			.select('*')
+			.eq('status', 'approved')
+			.order('submitted_at', { ascending: false });
+		if (error) {
+			return res.status(500).json({ error: 'Failed to fetch approved reports', details: error.message });
+		}
+		res.json({ reports: data });
+	} catch (e) {
+		res.status(500).json({ error: 'Failed to fetch approved reports', details: e.message });
+	}
+});
+
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
 	console.log(`Heavy Metals Data API listening on port ${PORT}`);
